@@ -47,5 +47,4 @@ if user_input:
             st.error("Oops! Something went wrong. Please try again later.")
 
 # ------------------- Footer -------------------
-st.markdown("---")
-st.caption("💬 Powered by Google Gemini | Made with 💙 in Streamlit")
+
