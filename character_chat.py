@@ -28,7 +28,7 @@ if character_prompt:
             char_response = model.generate_content(
                 f"You are roleplaying as {character}. Reply in the tone and style of this character. The user says: '{character_prompt}'"
             )
-            st.image("https://media.giphy.com/media/xT0GqeSlGSRQutAOcw/giphy.gif", width=150)
+            
             st.markdown(f"**{character}**: {char_response.text}")
         except Exception as e:
             st.error("Oops! The character is taking a break. Try again later.")
